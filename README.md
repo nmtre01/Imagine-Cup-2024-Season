@@ -1,17 +1,39 @@
-Legal Document Translator<a name="TOP"></a>
+MediTranslAIte<a name="TOP"></a>
 ===================
-The Legal Document Translator (LDT) is a free, open source software meant to quickly and effectively translate technical and legal documents.
-- - - - - - - - -
-# Installations
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-  The following are the packages needed to download the libraries and software for this project to work correctly.
 
 
-### Install Python
-  If you do not already have python installed, you will need to visit [python download](https://www.python.org/downloads/) and download the software according to your operating system.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-### Install pip
-    $ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-    $ python get-pip.py
 
-  # 
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+MediTranslAIte is a free, open source software meant to quickly and effectively translate technical and legal documents. MediTranslAIte accelerates the process of medical translation and cultivates a culture of empathy in healthcare by combining: 
+

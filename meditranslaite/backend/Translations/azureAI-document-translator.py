@@ -3,7 +3,7 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.translation.document import DocumentTranslationClient
 
 # create variables for your resource key, custom endpoint, sourceUrl, targetUrl, and targetLanguage
-key = "921ade4dd50146e0bb8f51bc52fe7f77"
+key = "your-key"
 endpoint = "https://api.cognitive.microsofttranslator.com"
 sourceUri = "./Files/PDF/Medicationcardpdf.pdf"
 targetUri = "./Files/PDF/SpanishMedicationcardpdf.pdf"

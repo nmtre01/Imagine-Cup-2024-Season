@@ -6,18 +6,18 @@ import './App.css';
 function App() {
 
    // new line start
-  const [profileData, setProfileData] = useState(null)
+  const [inputData, setInputData] = useState(null)
 
   function getData() {
     axios({
       method: "GET",
-      url:"/profile",
+      url:"/translation",
     })
     .then((response) => {
       const res =response.data
-      setProfileData(({
-        profile_name: res.name,
-        about_me: res.about}))
+      setInputData(({
+        input_text: res.input,
+        output_text: res.output}))
     }).catch((error) => {
       if (error.response) {
         console.log(error.response)
@@ -44,10 +44,10 @@ function App() {
         </a>
 
         {/* new line start*/}
-        <p>To get your profile details: </p><button onClick={getData}>Click me</button>
-        {profileData && <div>
-              <p>Profile name: {profileData.profile_name}</p>
-              <p>About me: {profileData.about_me}</p>
+        <p>To get your translation details: </p><button onClick={getData}>Click me</button>
+        {inputData && <div>
+              <p>Translation input: {inputData.input_text}</p>
+              <p>Translation output: {inputData.output_text}</p>
             </div>
         }
          {/* end of new line */}
